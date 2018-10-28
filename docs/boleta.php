@@ -55,7 +55,7 @@
             <h5>Tabla de valores Peticion Json</h5>
             <p>Estos son los detalles de todos los valores del json de peticion. Donde <strong>M</strong> es mandatorio y <strong>1-7</strong> significa de 1 hasta 7 caracteres.</p>
 
-            <table class="table table-bordered table-sm">
+            <table class="table table-bordered table-sm table-responsive">
               <tr>
                 <td colspan="4" class="text-center bg-light"><strong>Cabezera</strong></td>
               </tr>
@@ -369,7 +369,7 @@
 
           <div class="ml-sm-5">
             <h5>Tabla de valores Respuesta Json</h5>
-            <table class="table table-bordered table-sm">
+            <table class="table table-bordered table-sm table-responsive">
               <tr>
                 <th class="bg-light">Atributo</th>
                 <th class="bg-light">Valor</th>
