@@ -79,6 +79,8 @@
                     <li>generar_boleta</li>
                     <li>generar_nota_credito</li>
                     <li>generar_nota_debito</li>
+                    <li>generar_resumen_boletas</li>
+                    <li>generar_comprobacion_resumen_boletas</li>
                   </ul>                                  
                 </td>
                 <td class="align-middle text-center">M</td>

@@ -37,13 +37,14 @@
                   },
                   {
                     "unidad_de_medida": "NIU",
-                    "codigo": "CDF4790",
+                    "codigo": "CDF4789",
                     "descripcion": "REPARACIÓN DE PC ETC",
                     "cantidad": "1",
-                    "precio_unitario": "83.05",          
+                    "precio_unitario_sin_igv": "83.05",
+                    "precio_unitario_con_igv": "98.00",
                     "descuento": "0.00",
                     "igv": "14.95",
-                    "precio_venta": "83.05"
+                    "precio_venta": "83.05"          
                   }
                 ]
               }
@@ -76,6 +77,8 @@
                     <li>generar_boleta</li>
                     <li>generar_nota_credito</li>
                     <li>generar_nota_debito</li>
+                    <li>generar_resumen_boletas</li>
+                    <li>generar_comprobacion_resumen_boletas</li>
                   </ul>                                  
                 </td>
                 <td class="align-middle text-center">M</td>

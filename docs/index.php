@@ -22,6 +22,9 @@
         <li class="nav-item">
           <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab" aria-controls="settings" aria-selected="false">Nota Débito</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" id="resumen-tab" data-toggle="tab" href="#resumen" role="tab" aria-controls="resumen" aria-selected="false">Resumen Boletas</a>
+        </li>
       </ul>
 
       <!-- Tab panes -->
@@ -45,6 +48,10 @@
         <!-- Nota Debito -->
         <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">
           <?php include './nota_debito.php' ?>
+        </div>
+
+        <div class="tab-pane" id="resumen" role="tabpanel" aria-labelledby="resumen-tab">
+          <?php include './resumen_boletas.php' ?>
         </div>
 
       </div>           
