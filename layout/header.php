@@ -32,6 +32,6 @@
           <a class="nav-link" href="/contact/">Contacto</a>
         </li>
       </ul>
-      <a href="/demo/" class="btn btn-outline-light">Demo</a>
+      <a href="<?php echo 'http://cliente.'.$_SERVER["HTTP_HOST"];?>" class="btn btn-outline-light">Demo</a>
     </div>
   </nav>
